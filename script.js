@@ -1,0 +1,15 @@
+// const hamburger = document.querySelector(".hamburger");
+// const menu = document.querySelector(".menu");
+
+// hamburger.addEventListener("click", () => {
+//   menu.classList.toggle("show");
+//   hamburger.classList.toggle("rotate");
+// });
+
+const hamburger = document.querySelector(".hamburger");
+const menu = document.querySelector("menu");
+
+hamburger.addEventListener("click", () => {
+  menu.classList.toggle("show");
+  hamburger.classList.toggle("rotate");
+});
